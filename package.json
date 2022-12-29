@@ -10,11 +10,12 @@
     "lint": "eslint .",
     "storybook": "start-storybook -p 7007",
     "build-storybook": "build-storybook",
-    "build-static-webapp":"expo build:web"
+    "build-static-webapp": "expo build:web"
   },
   "dependencies": {
     "react": "18.1.0",
-    "react-native": "0.70.6"
+    "react-native": "0.70.6",
+    "react-native-web": "^0.18.10"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
